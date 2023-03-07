@@ -7,7 +7,7 @@ public class MainMenu : MonoBehaviour
 {
     // need a feature that loads X scene when button is clicked
     [SerializeField] private int sceneToLoad;
-    public void PlayGame()
+    public void PlayScene()
     {
         //LOAD THE SPECIFIED SCENE
         SceneManager.LoadScene(sceneToLoad);
